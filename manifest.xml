@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest>
+    <name>Google Maps Draw Module</name>
+    <author>AgoraMap</author>
+    <version>1.5</version>
+    <category>Maps</category>
+    <description>Google Maps Draw Module is a useful tool for web developers who want to build web apps for drawing on maps in the front end. It is based on modern tools such as Google API v3, jQuery, Javascript, Bootstrap, HTML5 and CSS3.</description>
+    <website>http://www.agoramap.com/</website>
+    <copyright>(C) AgoraMap 2012 - 2016</copyright>
+    <license>GNU General Public License version 2</license>
+</plugin_manifest>

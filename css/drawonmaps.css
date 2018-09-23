@@ -1,0 +1,575 @@
+body{
+    margin:5px;
+    background:#f3f3f3;
+    margin:0;
+    padding-top: 70px;
+    font-size: 16px!important;
+}
+
+
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.contentez {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #fff;
+    color: black;
+    cursor: pointer;
+} 
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#body{
+  width:1000px;
+  margin:20px auto;
+}
+
+#instructions{
+  margin-top: 10px;
+}
+#instructions li{
+  display:none;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width:400px;
+    height:150px;
+    /* Style the info window. */
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    overflow-y: auto;
+   
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+}
+
+.overlay_arrow{
+  left:50%;
+  margin-left:-16px;
+  width:0;
+  height:0;
+  position:absolute;
+}
+.overlay_arrow.above{
+  bottom:-15px;
+  border-left:16px solid transparent;
+  border-right:16px solid transparent;
+  border-top:16px solid #336699;
+}
+.overlay_arrow.below{
+  top:-15px;
+  border-left:16px solid transparent;
+  border-right:16px solid transparent;
+  border-bottom:16px solid #336699;
+}
+
+.row{
+    font-size:14px;
+    margin: 15px 0;
+    position: relative;
+}
+
+.popin{
+  background:#fff;
+  padding:2px;
+  
+  border-radius:2px;
+  
+}
+
+ul.gallery{
+  list-style:none;
+  margin:0;
+  padding:0;
+  width:100%;
+}
+ul.gallery li{
+  font-family:'Droid Sans';
+  display:inline-block;
+  width:30%;
+  background:#fff;
+  padding:10px 8px;
+  margin:4px 1px;
+  border-radius:3px;
+  border:solid 1px #ddd;
+}
+ul.gallery li:hover{
+  background:#f3f3f3;
+}
+ul.gallery li a{
+  display:block;
+}
+ul.gallery li h5{
+  font-weight:normal;
+  margin:0;
+  font-size:16px;
+}
+
+#map,
+#panorama {
+  height:550px;
+  background:#6699cc;
+}
+
+#sponsors {
+  font-size: 12px;
+  text-align: center;
+  padding: 4px 6px;
+}
+
+#sponsors img {
+  height: 40px;
+  margin: 4px;
+}
+
+code {
+  font-family: 'Ubuntu Mono', 'Monaco', 'Andale Mono', 'Courier New', monospace;
+  font-weight: bold;
+}
+
+
+pre{
+  font-family:'Ubuntu Mono';
+  font-size: 14px;
+}
+
+.row:after{clear:both;}
+.row>[class*="span"]{display:inline;float:left;}
+.span1{width:40px;}
+.span2{width:100px;}
+.span3{width:160px;}
+.span4{width:220px;}
+.span5{width:280px;}
+.span6{width:340px;}
+.span7{width:400px;}
+.span8{width:460px;}
+.span9{width:520px;}
+.span10{width:580px;}
+.span11{width:640px;}
+.span12{width:700px;}
+.span13{width:760px;}
+.span14{width:820px;}
+.span15{width:880px;}
+.span16{width:940px;}
+.span17{width:1000px;}
+.span18{width:1060px;}
+.span19{width:1120px;}
+.span20{width:1180px;}
+.span21{width:1240px;}
+.span22{width:1300px;}
+.span23{width:1360px;}
+.span24{width:1420px;}
+
+.span65{width:70%;}
+.span70{width:30%;}
+.span71{width:100%;}
+
+.span70 {display: inline-block; position:relative;}
+
+pre.prettyprint{
+  background:#fff;
+  border-color:#c1c1c1;
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;
+  -webkit-box-shadow:0 0 10px #999;
+  -moz-box-shadow:0 0 10px #999;
+  box-shadow:0 0 10px #999;
+  padding:5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.label {
+  font-size: 10.998px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #999999;
+  margin: 2px 6px;
+}
+
+.label {
+  padding: 1px 4px 2px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.notice {
+  background-color: yellow;
+}
+
+.edit_marker {
+  width: 250px;
+  height: 80px;
+}
+
+.edit_marker p {
+  margin: 0;
+}
+
+#basic_options {
+    width:100%; 
+    display:block; 
+    clear:both;
+    margin-bottom: 15px;
+}
+
+#basic_options label {
+    margin-right: 10px;
+}
+
+#basic_options input {
+    margin-right: 20px;
+}
+
+#basic_buttons {
+    width:100%; 
+    display:block; 
+    clear:both; 
+    margin:0 15px 15px 0;
+}
+
+#basic_buttons button {
+    width:80%; 
+    display:block; 
+    clear:both; 
+    margin:0 15px 15px 0;
+}
+
+#basic_buttons #change_icon_btn {
+    clear:none; 
+    display:inline-block; 
+}
+
+#helpbox	{
+    margin: 5px 0;
+    width:100%; 
+    display:inline-block; 
+    clear:both; 
+    border: solid 0px red;
+    min-height: 20px;	
+}
+
+#allmarks	{
+    margin-top:10px;
+}
+
+
+#footer {
+    padding: 12px 0;
+    text-align: right;
+}
+
+#footer .container .jumbotron {
+    padding: 12px 10px;
+}
+
+.searchbox {
+    text-align:left;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0 0px 0 0;
+    float: left;
+    width: 100%;
+    display: block;
+    clear:both;
+}
+
+.searchbox input[type="text"]{
+    padding: 3px 10px;
+    width: 65%;
+}
+
+.left_cpanel {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0;
+    float: left;
+    width: 100%;
+    display: block;
+    clear:both;
+}
+
+.radio label {
+    /*font-size: 130%; */
+}
+
+.doc_title {
+    margin-top: 0px;
+}
+
+#drawwhat_clearall {
+    /* margin-right: 20px;*/
+}
+
+#allmarks input[type="text"]{
+    width: 60%;
+}
+
+#map_form {
+    padding: 15px;
+}
+
+#current_marker_path {
+    display: none;
+}
+
+.marker_list {
+    cursor: pointer;
+    margin: 1px 4px;
+}
+
+#current_marker {
+    margin: 0;
+    display:inline;
+}
+
+#current_marker img {
+    margin-top:-10px;
+}
+
+.bootstrap-select img {
+    width: auto;
+    max-height: 25px;
+}
+
+.index_table {
+    display: block;
+    width: 100%;
+    clear: both;
+    padding: 15px;
+}
+
+.index_table div.checkbox {
+    margin: 0 10px;
+    display:inline;
+}
+
+img.home {
+    float:right; 
+    margin: 0 0 0 10px;
+}
+
+.error_msg {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.map_view_buttons {
+    float:right;
+}
+
+.map_view_markers_groups {
+    float:left;
+    margin-top: 20px;
+}
+
+.marker_coords {
+    display:none;
+}
+
+#add_marker_on_loc_found_lbl {
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+/**************************
+ *	bootstrap changes 
+ *************************/
+.container .jumbotron, .container-fluid .jumbotron {
+    padding: 10px 40px!important;
+}
+
+.jumbotron {
+    margin-bottom: 10px!important;
+}
+
+.jumbotron p {
+	margin-bottom:10px!important;
+	font-size:16px!important;
+}
+
+.index_table .checkbox input[type="checkbox"], .index_table .checkbox-inline input[type="checkbox"] {
+    margin-right: 5px;
+    position: relative;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+	float: right!important;
+}
+
+.checkbox label, .radio label {
+    margin: 0 10px 5px 016px!important;
+}
+
+.dom_login {
+	width:50%; 
+	margin: 30px auto; 
+	background-color:#fff; 
+	padding: 40px; 
+	border-radius: 6px;
+}
+
+.dom_login .signup {
+	float: right;
+}
+
+.dom_login .text-danger {
+	text-align:center;
+	font-size: 85%!important;
+}
+
+.dom-bg-danger {
+	padding: 1px!important;
+	margin-bottom: 15px;
+	border-radius: 6px;
+    background-color: #f2dede;
+}
+
+.dom-bg-success {
+	padding: 1px!important;
+	margin-bottom: 15px;
+	border-radius: 6px;
+    background-color: #dff0d8;
+    text-align: center;
+}
+
+/**************************
+ *	bootstrap changes 
+ *************************/
+.btn {
+	margin-bottom: 3px!important;
+	margin-right: 3px!important;
+}
+	
+ @media screen and (max-width: 767px) {
+    .span70 {width: 100%; float:left; display: block; position:relative;}
+    
+	.row{
+		margin: 0;
+	}
+	
+	.form-inline .form-control {
+		display: inline-block!important;
+		vertical-align: middle!important;
+		width: auto!important;
+		margin: 10px 0;
+	}	
+	
+	.span65 {
+		width: 100%!important;
+	}
+	
+	#basic_buttons .btn {
+		margin-bottom: 4px!important;
+	}	
+	
+	img.home  {
+		width:50%;
+	}
+	
+	.dom_login {
+		width:100%; 
+	}	
+}
+
+@media screen and (max-width: 1200px) {	
+	.map_view_buttons {
+		margin-top: 20px;
+	}	
+	
+  .col-lg-9 {
+    width: 75%!important;
+    float: left;
+  }
+  
+  .col-lg-3 {
+    width: 25%!important;
+    float: left;
+  }
+  
+	.searchbox input[type="text"] {
+		width: 100%;
+		margin-bottom: 10px;
+	} 
+}
+
+@media screen and (max-width: 1000px) {	
+	#basic_buttons button {
+		margin: 10px 0!important;
+		padding: 8px 0!important;
+		width: 100%!important;
+	}
+	
+	#current_marker img {
+		margin-top: 10px;
+	}	
+	
+ 
+}
+
+@media screen and (max-width: 480px) {	
+  .col-lg-9 {
+    width: 100%!important;
+  }
+  
+  .col-lg-3 {
+    width: 100%!important;
+  }
+
+	.searchbox input[type="text"] {
+		width: 50%;
+		margin-bottom: 10px;
+	}    
+}
+
+
